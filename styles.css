@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2edf3;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul{
+    list-style:none;
+
+}
+
+table{
+    min-width: 310px;
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    text-align: center;
+    overflow: hidden;
+    border-radius:20px;
+    line-height: 30px;
+}
+
+
+td:first-child{
+    text-align: left;
+}
+
+td{
+    padding: 10px;
+
+}
+
+tr{
+    color: black;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+
+
+
+tr:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.priceValue{
+    font-size: 2em;
+}
+
+
+.btn {
+    padding: 8px 25px;
+    background-color: #d3d3d3;
+    border: 1px solid gray;
+    outline: none;
+    text-transform: uppercase;
+}
+.styleHeader {
+    color: white;
+    font-weight: bold;
+}
