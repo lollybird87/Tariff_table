@@ -69,3 +69,46 @@ tr:hover{
     color: white;
     font-weight: bold;
 }
+tr:nth-child(2n+1) {
+    background-color: #dbdbdb;
+}
+
+tr:nth-child(2n){
+    background-color: #ececec;
+}
+
+tr:nth-child(2n+1) td:nth-child(2n){
+    background-color: #e7e7e7;
+}
+
+tr:nth-child(2n) td:nth-child(2n){
+    background-color: #f3f3f3;
+}
+
+th:nth-child(1){
+    background: #7887ab;
+}
+
+th:nth-child(2){
+    background:#4f628e;
+}
+
+th:nth-child(3){
+    background: #2e4172;
+}
+
+th:nth-child(4){
+    background:  #162955;
+}
+th:nth-child(5){
+    background: #061539;
+}
+/*
+    background: linear-gradient(to right,
+    #7887ab 0%,      #7887ab 32%,
+    #4f628e 32%,     #4f628e 50.5%,
+    #2e4172 50.5%,   #2e4172 67%,
+    #162955 67%,     #162955 83.5%,
+    #061539 83.5%,   #061539 100%);
+
+*/
